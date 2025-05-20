@@ -1,0 +1,1 @@
+<!-- No hay contenido específico en el header además del título -->

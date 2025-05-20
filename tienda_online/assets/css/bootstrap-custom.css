@@ -1,0 +1,77 @@
+:root {
+    --primary: #C62828;
+    --secondary: #388E3C;
+    --bg-main: #1E1E1E;
+    --text-light: #FFFFFF;
+    --text-dark: #E0E0E0;
+    --accent: #FF5722;
+    --highlight: #FFEB3B;
+}
+
+/* Sobreescribir colores de Bootstrap */
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg-main {
+    background-color: var(--bg-main);
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-light {
+    color: var(--text-light) !important;
+}
+
+.text-dark {
+    color: var(--text-dark) !important;
+}
+
+.bg-accent {
+    background-color: var(--accent) !important;
+}
+
+.text-accent {
+    color: var(--accent) !important;
+}
+
+.bg-highlight {
+    background-color: var(--highlight) !important;
+}
+
+.text-highlight {
+    color: var(--highlight) !important;
+}
+
+/* Botones personalizados */
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #9e1f1f;
+    border-color: #9e1f1f;
+}
+
+.btn-accent {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: white;
+}
+
+.btn-accent:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+    color: white;
+}

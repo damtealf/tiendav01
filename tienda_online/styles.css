@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Barra de navegación */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Carrusel */
+.carousel {
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Tarjetas de producto */
+.product-card {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Rating */
+.rating {
+    color: #ffc107;
+}
+
+/* Barra de categorías */
+.category-bar {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Pie de página */
+footer a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
